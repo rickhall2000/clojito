@@ -1,6 +1,3 @@
-(ns clojito.core)
-
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(ns clojito.core
+  (:require [incanter.core :as c]
+            [incanter.io]))
